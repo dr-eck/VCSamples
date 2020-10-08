@@ -70,7 +70,7 @@ void CWatchBar::OnSize(UINT nType, int cx, int cy)
 {
 	CDockablePane::OnSize(nType, cx, cy);
 
-	if (CanAdjustLayout())
+	if (!m_bIsSliding || !m_bIsHiding)
 	{
 		CRect rc;
 		GetClientRect(rc);

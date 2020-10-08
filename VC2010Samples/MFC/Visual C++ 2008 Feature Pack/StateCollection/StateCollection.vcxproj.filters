@@ -55,9 +55,7 @@
     <None Include="res\Toolbar.bmp">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="res\workspace.bmp">
-      <Filter>Resource Files</Filter>
-    </None>
+    <None Include="ReadMe.htm" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainFrm.h">
@@ -87,5 +85,10 @@
     <ClInclude Include="WorkspaceBar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\workspace.bmp">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
